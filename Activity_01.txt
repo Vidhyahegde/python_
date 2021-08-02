@@ -5,8 +5,8 @@ Copy paste the all the commands that you executed on IDLE:
 597
 >>> 3*19
 57
->>> 2020/17
-118.82352941176471
+>>> 2020/19
+106.315789473684
 >>> 2021%21
 5
 >>> 2**7
