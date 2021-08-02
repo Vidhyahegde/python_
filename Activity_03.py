@@ -1,8 +1,7 @@
-print("Enter two strings")
-x=input("")
-y=input("")
-z = x+y
-w=z*5
+x=input("Enter the first string:")
+y=input("Enter the second string:")
+z = x+" "+y
+w=(z+"\n")*5
 print(z)
 print(w)
 
