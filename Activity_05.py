@@ -4,4 +4,4 @@ print(list1)
 s=0
 for n in list1:
     s = s + int(n)
-print("sum = ",s)
+print("Sum of all the numbers is =",s)
