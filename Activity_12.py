@@ -1,9 +1,10 @@
 x=(input("Enter the three number:"))
 y=x.split()
 z=list(y)
+
 p=int(z[0])
 q=int(z[1])
 r=int(z[2])
-if p>=q and p>=r: print(p," is the greatest number among",p,",",q,"and",r)
-elif q>=p and q>=r: print(q," is the greatest number among",p,",",y,"and",z)
-else:print(r," is the greatest number among",p,",",q,"and",r)
+
+a=max(p,q,r)
+print(a,"is the greatest number among ",p,",",q," and" ,r)
