@@ -4,4 +4,4 @@ y=sorted(inp().split())
 print(y)
 z=inp().split()
 z.sort()
-print(z
+print(z)
