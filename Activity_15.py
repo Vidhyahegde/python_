@@ -3,6 +3,5 @@ def inp():
 y=sorted(inp().split())
 print(y)
 z=inp().split()
-a=list(z)
-a.sort()
-print(a)
+z.sort()
+print(z
