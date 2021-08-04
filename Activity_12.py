@@ -1,8 +1,8 @@
 def inp():
     return input("Enter three numbers")
 
-y=inp().split()
-z=list(y)
+z=inp().split()
+
 
 p=int(z[0])
 q=int(z[1])
