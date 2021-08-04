@@ -1,12 +1,17 @@
-x = input("Enter 5 numbers ")
-y=x.split()
-print(y)
-l2=y[::-1]
-print("reversed list = ",l2)
+x = input('enter the elements')
+y = x.split()
+for i in range(0, len(y)):
+    y[i] = int(y[i])
+z=y[::-1]
+print("reversed list = ",z)
 l1=y[0:3]
-print("sliced list= ",l1)
+print("sliced list = ",l1)
 y[0]=0
-print("replaced list-1 = ",y)
+y[-1]=0
+print("replace list1 = ",y)
 l1[0]=0
 l1[-1]=0
-print("replaced list-2 = ",l1)
+print("replace list2 = ",l1)
+
+
+
