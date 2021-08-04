@@ -1,5 +1,7 @@
-x=(input("Enter the three number:"))
-y=x.split()
+def inp():
+    return input("Enter three numbers")
+
+y=inp().split()
 z=list(y)
 
 p=int(z[0])
