@@ -1,10 +1,11 @@
 def main():
     y={}
-    for i in range(number()):
+    n=number()
+    for i in range(n):
         key=input("Enter key : ")
         value = input("Enter value :")
         y[key]=value
-    print(y)
+    print("Before sorting ",y)
     sorted_values = sorted(y.values()) 
     dict1={}
     for i in sorted_values:
@@ -12,8 +13,7 @@ def main():
             if y[k] == i:
                 dict1[k] = y[k]
                 break
-
-    print(dict1)
+    print("After sorting - ",dict1)
 def number():
     n=int(input("Enter the number of elements in dictionary"))
     return n
