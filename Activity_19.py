@@ -6,8 +6,8 @@ def main():
         value = input("Enter value :")
         y[key]=value
     print("Before sorting - ",y)
-    from collections import OrderedDict
-    dict1 = OrderedDict(sorted(y.items()))
+    
+    dict1 = sorted(y.items())
     print("After sorting - ",dict(dict1))
 
 
