@@ -1,4 +1,4 @@
-def input():
+def number():
     x=input("Enter three numbers - ")
     z=x.split()
     p=int(z[0])
@@ -6,7 +6,7 @@ def input():
     r=int(z[2])
     return p,q,r 
 def main():
-    p,q,r= input()
+    p,q,r= number()
     m=maximim(p,q,r)
     print(m," is the greatest number among ",p,",",q," and " ,r)
 def maximum(p,q,r):
