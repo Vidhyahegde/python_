@@ -1,19 +1,18 @@
-def inp():
-    return input("Enter three numbers - ")
-     
-def main():
-    x=inp()
-    y=x.split()
-    z=list(y)
+def input():
+    x=input("Enter three numbers - ")
+    z=x.split()
     p=int(z[0])
     q=int(z[1])
     r=int(z[2])
-    m=ma(p,q,r)
-    print(m,"is the greatest number among ",p,",",q," and" ,r)
-def ma(p,q,r):
+    return p,q,r 
+def main():
+    p,q,r= input()
+    m=maximim(p,q,r)
+    print(m," is the greatest number among ",p,",",q," and " ,r)
+def maximum(p,q,r):
     if p>q and p>r:
         return p
-    elif q>p and q>r:
+    elif  q>r:
         return q
     else:
         return r
